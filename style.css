@@ -24,6 +24,15 @@ body {
   align-items: center;
   justify-content: center;
   gap: 1rem;
+  animation: gradientMove 8s ease infinite;
+  background: linear-gradient(270deg, #F2D9E7, #ffc6d0, #fce2f8, #FFFDF3);
+  background-size: 800% 800%;
+}
+
+@keyframes gradientMove {
+  0% {background-position:0% 50%}
+  50% {background-position:100% 50%}
+  100% {background-position:0% 50%}
 }
 
 .logo {
@@ -247,6 +256,15 @@ main {
   .header {
     padding: 1rem 0 0.5rem 0;
   }
+  .flip-container .card-front,
+  .flip-container .card-back {
+    position: static;
+    top: auto;
+    left: auto;
+    width: 100%;
+    box-shadow: none;
+    margin-top: 0.5rem;
+  }
 }
 
 @media (max-width: 575px) {
@@ -297,4 +315,63 @@ main {
   content: '';
   color: var(--rosa-chicle);
   font-size: 1.1rem;
+}
+
+.flip-container {
+  perspective: 600px;
+  position: relative;
+  display: inline-block;
+}
+.card-front, .card-back {
+  position: absolute;
+  width: 100%;
+  top: 100%; /* Mostrar debajo del menú principal */
+  left: 0;
+  backface-visibility: hidden;
+  transition: transform 0.7s cubic-bezier(.4,2,.3,.7), opacity 0.3s;
+}
+.card-front {
+  transform: rotateY(0deg);
+  z-index: 2;
+}
+.card-back {
+  transform: rotateY(180deg);
+  z-index: 1;
+}
+.flip-container .card-back {
+  display: block;
+  opacity: 0;
+  pointer-events: none;
+}
+.flip-container .card-front {
+  display: block;
+  opacity: 1;
+}
+.flip-container.flipped .card-front {
+  transform: rotateY(180deg);
+  opacity: 0;
+  pointer-events: none;
+}
+.flip-container.flipped .card-back {
+  transform: rotateY(0deg);
+  opacity: 1;
+  pointer-events: auto;
+}
+.flip-container .card-front {
+  opacity: 1;
+  pointer-events: auto;
+  z-index: 2;
+}
+.flip-container .card-back {
+  opacity: 0;
+  pointer-events: none;
+  z-index: 1;
+}
+.flip-container.flipped .card-front {
+  opacity: 0;
+  pointer-events: none;
+}
+.flip-container.flipped .card-back {
+  opacity: 1;
+  pointer-events: auto;
 }
