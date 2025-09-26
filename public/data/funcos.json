@@ -1,0 +1,37 @@
+[
+  {
+    "imagen": "public/images/Funcos/Merida_1.jpg",
+    "titulo": "Funko Pop Merida",
+    "precio": "Q350",
+    "categoria": "Anime",
+    "descripcion": "Figura coleccionable Funko Pop de Merida."
+  },
+  {
+    "imagen": "public/images/Funcos/Marvel_1.jpg",
+    "titulo": "Funko Pop Marvel",
+    "precio": "Q320",
+    "categoria": "Anime",
+    "descripcion": "Figura Funko Pop de Marvel."
+  },
+  {
+    "imagen": "public/images/Funcos/Demon_S_1.jpg",
+    "titulo": "Funko Pop Demon Slayer",
+    "precio": "Q290",
+    "categoria": "Anime",
+    "descripcion": "Figura Funko Pop de Demon Slayer."
+  },
+  {
+    "imagen": "public/images/Funcos/Marvel_2.jpg",
+    "titulo": "Funko Pop Marvel",
+    "precio": "Q320",
+    "categoria": "Anime",
+    "descripcion": "Figura Funko Pop de Marvel."
+  },
+  {
+    "imagen": "public/images/Funcos/Avatar_1.jpg",
+    "titulo": "Funko Pop Avatar",
+    "precio": "Q290",
+    "categoria": "Anime",
+    "descripcion": "Figura Funko Pop de Avatar."
+  }
+]
