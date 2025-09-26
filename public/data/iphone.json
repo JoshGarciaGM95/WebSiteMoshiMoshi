@@ -1,0 +1,16 @@
+[
+  {
+    "imagen": "public/images/Iphone/iphone_17.jpg",
+    "titulo": "Iphone 17",
+    "precio": "Q3500",
+    "categoria": "Celulares",
+    "descripcion": "Descripción del Iphone 17."
+  },
+  {
+    "imagen": "public/images/Iphone/iphone_14_pro.jpg",
+    "titulo": "Iphone 14 Pro",
+    "precio": "Q3200",
+    "categoria": "Celulares",
+    "descripcion": "Descripción del Iphone 14 Pro."
+  }
+]

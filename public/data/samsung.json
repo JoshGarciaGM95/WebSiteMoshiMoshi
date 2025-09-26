@@ -1,0 +1,23 @@
+[
+  {
+    "imagen": "public/images/Samsung/S25Ultra.jpg",
+    "titulo": "Samsung S25 Ultra",
+    "precio": "Q3500",
+    "categoria": "Celulares",
+    "descripcion": "Descripción del Samsung Galaxy S25 Ultra."
+  },
+  {
+    "imagen": "public/images/Samsung/SMA35.jpg",
+    "titulo": "Samsung A35",
+    "precio": "Q3200",
+    "categoria": "Celulares",
+    "descripcion": "Descripción del Samsung Galaxy A35."
+  },
+  {
+    "imagen": "public/images/Samsung/SMA56.jpg",
+    "titulo": "Samsung A56",
+    "precio": "Q2900",
+    "categoria": "Celulares",
+    "descripcion": "Descripción del Samsung Galaxy A56."
+  }
+]
