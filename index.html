@@ -76,7 +76,59 @@
       </div>
     </nav>
     <main>
-        <!-- Aquí irá el contenido principal -->
+      <section id="welcomeSection" class="welcome-section text-center py-5">
+        <h2 class="mb-4 welcome-title text-center">¡Bienvenido a Moshi Moshi Shop!</h2>
+          <p class="mb-4 welcome-desc text-center">Encuentra los accesorios más kawaii y originales para tu colección, outfit o regalo especial.</p>
+          <div class="row align-items-center justify-content-center g-4">
+            <div class="col-12 col-lg-7">
+              <div id="welcomeCarousel" class="carousel slide" data-bs-ride="carousel">
+                <div class="carousel-inner rounded-4 shadow">
+                  <div class="carousel-item active">
+                    <img src="public/images/welcome/Anime_1.jpg" class="d-block w-100 welcome-img-carrusel" alt="Accesorio 1">
+                  </div>
+                  <div class="carousel-item">
+                    <img src="public/images/welcome/Anime_2.jpg" class="d-block w-100 welcome-img-carrusel" alt="Accesorio 2">
+                  </div>
+                  <div class="carousel-item">
+                    <img src="public/images/welcome/Bolsos.jpg" class="d-block w-100 welcome-img-carrusel" alt="Accesorio 3">
+                  </div>
+                  <div class="carousel-item">
+                    <img src="public/images/welcome/Bolsos_1.jpg" class="d-block w-100 welcome-img-carrusel" alt="Accesorio 3">
+                  </div>
+                  <div class="carousel-item">
+                    <img src="public/images/welcome/Disney_1.jpg" class="d-block w-100 welcome-img-carrusel" alt="Accesorio 3">
+                  </div>
+                  <div class="carousel-item">
+                    <img src="public/images/welcome/Disney_2.jpg" class="d-block w-100 welcome-img-carrusel" alt="Accesorio 3">
+                  </div>
+                  <div class="carousel-item">
+                    <img src="public/images/welcome/Peluches_1.jpg" class="d-block w-100 welcome-img-carrusel" alt="Accesorio 3">
+                  </div>
+                  <div class="carousel-item">
+                    <img src="public/images/welcome/Peluches_2.jpg" class="d-block w-100 welcome-img-carrusel" alt="Accesorio 3">
+                  </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#welcomeCarousel" data-bs-slide="prev">
+                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Anterior</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#welcomeCarousel" data-bs-slide="next">
+                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Siguiente</span>
+                </button>
+              </div>
+            </div>
+            <div class="col-12 col-lg-5 d-flex flex-column gap-4">
+              <img src="public/images/welcome/anime_2.jpg" alt="Accesorio 4" class="img-fluid welcome-img-vertical">
+              <img src="public/images/welcome/Peluches_1.jpg" alt="Accesorio 5" class="img-fluid welcome-img-vertical">
+            </div>
+          </div>
+          <div class="mt-4 text-center">
+            <a href="#" class="btn btn-kawaii btn-lg" onclick="document.getElementById('welcomeSection').style.display='none';">Ver productos</a>
+          </div>
+        </section>
+      </section>
+      <!-- Aquí irá el contenido principal dinámico -->
     </main>
     <!-- Modal para imagen de producto -->
     <div class="modal fade" id="modalImagen" tabindex="-1" aria-labelledby="modalImagenLabel" aria-hidden="true">

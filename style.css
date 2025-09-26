@@ -1,3 +1,41 @@
+.welcome-img-carrusel {
+  max-height: 400px;
+  object-fit: cover;
+  border-radius: 1.5rem;
+  background: var(--crema);
+  box-shadow: 0 2px 8px rgba(140,86,69,0.10);
+}
+.welcome-img-vertical {
+  max-height: 190px;
+  object-fit: cover;
+  border-radius: 1.5rem;
+  background: var(--crema);
+  box-shadow: 0 2px 8px rgba(140,86,69,0.10);
+}
+.welcome-section {
+  background: linear-gradient(90deg, #fce2f8 0%, #d5f8fc 100%);
+  border-radius: 2rem;
+  box-shadow: 0 4px 24px rgba(140,86,69,0.10);
+  margin-bottom: 2rem;
+  padding: 3rem 1rem;
+}
+.welcome-title {
+  color: var(--rosa-chicle);
+  font-family: 'Quicksand', 'Nunito', Arial, sans-serif;
+  font-size: 2.2rem;
+  font-weight: bold;
+}
+.welcome-desc {
+  color: var(--marron-suave);
+  font-size: 1.2rem;
+}
+.welcome-img {
+  max-height: 220px;
+  object-fit: cover;
+  background: var(--crema);
+  border-radius: 1rem;
+  box-shadow: 0 2px 8px rgba(140,86,69,0.10);
+}
 .input-kawaii {
   background: linear-gradient(90deg, #fce2f8 0%, #d5f8fc 100%);
   color: var(--marron-suave);
