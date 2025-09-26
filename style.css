@@ -1,3 +1,35 @@
+.input-kawaii {
+  background: linear-gradient(90deg, #fce2f8 0%, #d5f8fc 100%);
+  color: var(--marron-suave);
+  border: 2px solid var(--rosa-chicle);
+  border-radius: 1.5rem;
+  font-size: 1.08rem;
+  font-family: 'Quicksand', 'Nunito', Arial, sans-serif;
+  box-shadow: 0 2px 8px rgba(255,162,179,0.10);
+  padding: 0.7rem 1.2rem;
+  transition: border 0.2s, box-shadow 0.2s;
+}
+.input-kawaii:focus {
+  outline: none;
+  border-color: var(--azul-cian);
+  box-shadow: 0 4px 16px rgba(213,248,252,0.18);
+}
+.btn-kawaii {
+  background: linear-gradient(90deg, #ffa2b3a6 0%, #fce2f8 100%);
+  color: var(--marron-suave) !important;
+  border: none;
+  font-weight: 700;
+  border-radius: 2rem;
+  box-shadow: 0 2px 8px rgba(255,162,179,0.15);
+  transition: background 0.3s, color 0.3s, transform 0.2s;
+  padding: 0.7rem 1.5rem;
+}
+.btn-kawaii:hover, .btn-kawaii:focus {
+  background: linear-gradient(90deg, #fce2f8 0%, #ffa2b3a6 100%);
+  color: var(--blanco) !important;
+  transform: scale(1.07);
+  box-shadow: 0 4px 16px rgba(255,162,179,0.25);
+}
 :root {
   --rosa-pastel: #f7edf3;
   --rosa-chicle: #ffa2b3a6;
