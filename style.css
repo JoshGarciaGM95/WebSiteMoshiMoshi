@@ -1,3 +1,53 @@
+.footer-kawaii {
+  background: linear-gradient(90deg, #fce2f8 0%, #d5f8fc 100%);
+  color: var(--marron-suave);
+  border-top: 2px solid var(--rosa-chicle);
+  box-shadow: 0 -2px 16px rgba(255,162,179,0.10);
+  border-radius: 2rem 2rem 0 0;
+}
+.footer-title {
+  font-family: 'Quicksand', 'Nunito', Arial, sans-serif;
+  color: var(--rosa-chicle);
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+.footer-desc {
+  font-size: 1.08rem;
+  color: var(--marron-suave);
+}
+.footer-icons {
+  display: flex;
+  justify-content: center;
+  gap: 1.2rem;
+}
+.footer-icon {
+  width: 32px;
+  height: 32px;
+  filter: drop-shadow(0 2px 8px #ffa2b3a6);
+}
+.footer-copy {
+  color: var(--rosa-chicle);
+  font-size: 0.95rem;
+}
+
+/* Retoques visuales para cards y badges */
+.card {
+  border-radius: 1.5rem;
+  box-shadow: 0 2px 12px rgba(255,162,179,0.10);
+  border: 1px solid #ffa2b3a6;
+}
+.card-title {
+  color: var(--rosa-chicle);
+  font-family: 'Quicksand', 'Nunito', Arial, sans-serif;
+  font-weight: bold;
+}
+.badge.bg-info {
+  background: linear-gradient(90deg, #fce2f8 0%, #d5f8fc 100%);
+  color: var(--marron-suave);
+  font-size: 0.95rem;
+  border-radius: 1rem;
+  box-shadow: 0 2px 8px rgba(255,162,179,0.10);
+}
 .welcome-img-carrusel {
   max-height: 400px;
   object-fit: cover;
@@ -281,7 +331,7 @@ body {
 
 main {
   width: 100%;
-  max-width: 1200px;
+  max-width: 1450px;
   box-sizing: border-box;
   margin: 2rem auto;
   padding: 2rem;
